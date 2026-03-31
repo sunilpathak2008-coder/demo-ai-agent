@@ -3,7 +3,7 @@ import { z } from 'zod';
 import axios from 'axios';
 import dotenv from 'dotenv';
 
-//dotenv.config();
+dotenv.config();
 const getWeatherTool = tool({
   name: 'get_weather',
   description: 'returns the current weather information for the given city',
